@@ -1,0 +1,11 @@
+.sidebar{
+  background-color:rgb(65, 64, 64); 
+  width: 200px;
+  height:1000px;
+}
+
+.sidebar-img{
+    height: 50px;
+    margin-left: 75px;
+    margin-top: 40px;
+}

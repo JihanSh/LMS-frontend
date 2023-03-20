@@ -1,0 +1,33 @@
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "sidebar navbar"
+    "sidebar main-container";
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(92, 175, 235, 1);
+  color: #fff;
+  height: 100px;
+}
+
+.calendar-img {
+  align-items: center;
+  height: 50px;
+}
+.main-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+margin-left: 500px;
+margin-right: auto;
+margin-top: 50px;
+gap: 70px;
+
+}
